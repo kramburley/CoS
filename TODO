@@ -4,5 +4,6 @@ Engine
 - set player's basic status (Str, Constitution, Skill)
 - generate player Attributes
 - update player basic status and check attributes
-- gen attack
-- get damage
+- take damage
+- check death
+- check heal
