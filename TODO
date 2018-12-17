@@ -7,3 +7,14 @@ Engine
 - take damage
 - check death
 - check heal
+========================
+- check player's luck - MAX 25% - StartValue = 0 per kill +5 per death -6
+- check Dice Roller (percentage chance)
+- check player's luck effects (multiple effects: double damage, armour pierce, lifedrain)
+- Player Level - Experience (lvl 1 player is 10 points of stats) - Discuss about worth XP
+- load assets (backend)
+- Inventory (potions[heal items], bombs[atk items], )
+- Weapon (increase atk)
+- Armor (increase def and or player hp, mp etc)
+- check player turn??
+- Show Game screen Statistics (frontend)
