@@ -1,0 +1,9 @@
+Engine
+- instantiate a new player
+- set players name
+- set player's basic stuff (Str, Constitution, Skill)
+- generate player Attributes
+- check player's HP
+- check player's MP
+- check player's Atk
+- check player's defence
