@@ -7,14 +7,34 @@ Engine
 - take damage
 - check death
 - check heal
-========================
 X check player's luck - MAX 25% - StartValue = 0 per kill +5 per death -6
 X check percentage chance
-- check player's luck effects (multiple effects: double damage, armour pierce, lifedrain)
-- Player Level - Experience (lvl 1 player is 10 points of stats) - Discuss about worth XP
-- load assets (backend)
+X check player's luck effects (multiple effects: double damage, armour pierce, lifedrain)
+X Show Game screen Statistics (frontend)
+  - What do we want show, (minimum)
+    - Player - Name, MAXHP/HP, MAXMP/MP, atk damage, df
+    - Enemy - Name, HP, MP, atk damage, df
+X Generate Player - RandomGenerated
+X Generate random enemy name
+X Generate random enemy with randomName
+
+- create virtual environment (python3 -m venv CoS_venv)
+- activate virtual env (source CoS_venv/bin/activate)
+- to deactivate just type (deactivate)
+
+===========================================
+- check select next action -  right/d. Attack, left/a. defence (x 0.5 defence player), down/s. Item, up/w. Magic,
+- combat
+- check player turn??
+
+- create file with all constants
+
 - Inventory (potions[heal items], bombs[atk items], )
 - Weapon (increase atk)
 - Armor (increase def and or player hp, mp etc)
-- check player turn??
-- Show Game screen Statistics (frontend)
+- load assets (backend)
+- Player Level - Experience (lvl 1 player is 10 points of stats) - Discuss about worth XP
+
+future features:
+hardcore mode:
+- chose where to spend 10 points between 3 attributes
